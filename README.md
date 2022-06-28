@@ -1,4 +1,4 @@
-# VsCode - settings.json :tools
+# VsCode - settings.json :hammer_and_pick:
 Configurações do VsCode
 ```
 {
