@@ -4,5 +4,5 @@
 
 ## Setups:
 - [settings.json](https://github.com/gustavogss/vscode-settings/settings.json)
-- [Node](https://github.com/gustavogss/vscode-settings/node)
+- [Node](https://github.com/gustavogss/vscode-settings/tree/main/node)
 
