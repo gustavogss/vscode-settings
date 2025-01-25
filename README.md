@@ -8,26 +8,26 @@ Configurações do VsCode
   "workbench.productIconTheme": "fluent-icons",
   "explorer.compactFolders": false,
   "editor.minimap.enabled": false,
-
   // Configuração da fonte
   "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true,
   "editor.fontSize": 15,
   "editor.lineHeight": 26,
   "editor.tabSize": 2,
-
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
   // Formatação de código
   "editor.formatOnSave": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "prettier.semi": false,
-
   // Formatação por tipo de arquivo
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -44,7 +44,6 @@ Configurações do VsCode
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-
   // Configuração para Emmet
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -52,21 +51,20 @@ Configurações do VsCode
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-
   // Suporte para Dart
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [80],
+    "editor.rulers": [
+      80
+    ],
     "editor.selectionHighlight": false,
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off"
   },
-
   // Configurações de extensões
   "tabnine.experimentalAutoImports": true,
   "database-client.autoSync": true,
-
   // Configuração de agrupamento no explorador
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
@@ -82,7 +80,6 @@ Configurações do VsCode
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*"
   },
-
   // Python (desabilitar criação de ambientes automáticos)
   "python.createEnvironment.trigger": "off"
 }
