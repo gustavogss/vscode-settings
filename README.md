@@ -3,6 +3,6 @@
 
 
 ## Setups:
-- [settings.json](https://github.com/gustavogss/vscode-settings/main/settings.json)
+- [settings.json](https://github.com/gustavogss/vscode-settings/blob/main/settings.json)
 - [Node](https://github.com/gustavogss/vscode-settings/tree/main/node)
 
